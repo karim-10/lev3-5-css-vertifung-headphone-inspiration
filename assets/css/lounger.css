@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2e2e2e;
+}
+
+body header nav{
+    width: 100%;
+    position: fixed;
+    /* background-color: tomato; */
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header nav>img{
+    padding-left: 30px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li {
+    padding-left: 15px;
+    padding-top: 40px;
+    font-size: 0.9rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: #867772;
+}
+header ul li:nth-of-type(1){
+    margin-right: 50px;
+}
+header ul li:nth-of-type(5){
+    margin-right: 100px;
+    margin-left: 50px;
+}
+header ul li a:hover{
+    color: rgb(234, 204, 194) ;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+ /* ___________________________________________ main  */
+
+main>div{
+    position: fixed;
+    top: 30%;
+}
+main>div>ul{
+    list-style: circle;
+    margin-left: 40px;
+}
+
+main>div>ul>li {
+    height: 80px;
+    padding-left: 16px;
+}
+main>div>ul>li>a{
+    text-decoration: none;
+    color: #867772;
+}
+main>div>ul>li>a:hover{
+    color: #fff;
+}
+
+/* ______________________________________________ section */
+section{
+    height: 100vh;
+}
+
+section img{
+    width: 55%; 
+    height: 100%;
+} 
+section div {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    max-width: 35%;
+}
+section div h1{
+    font-size: 2.5em;
+    color: rgb(234, 204, 194) ;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+section div p{
+    color: rgb(115, 115, 115);
+    line-height: 1.5em;
+}

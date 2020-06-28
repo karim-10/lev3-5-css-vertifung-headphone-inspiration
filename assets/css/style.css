@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2e2e2e;
+}
+
+body header nav{
+    width: 100%;
+    position: fixed;
+    /* background-color: tomato; */
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header nav>img{
+    padding-left: 30px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li {
+    padding-left: 15px;
+    padding-top: 40px;
+    font-size: 0.9rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: #867772;
+}
+header ul li:nth-of-type(1){
+    margin-right: 50px;
+}
+header ul li:nth-of-type(5){
+    margin-right: 100px;
+    margin-left: 50px;
+}
+header ul li a:hover{
+    color: rgb(234, 204, 194) ;
+    text-decoration: underline;
+    transition: 1s;
+}
+ /* ___________________________________________ main  */
+
+main>div{
+    position: fixed;
+    top: 30%;
+}
+main>div>ul{
+    list-style: circle;
+    margin-left: 40px;
+}
+
+main>div>ul>li {
+    height: 80px;
+    padding-left: 16px;
+}
+main>div>ul>li>a{
+    text-decoration: none;
+    color: #867772;
+}
+main>div>ul>li>a:hover,:active{
+    color: #fff;
+    transition: 0.6s;
+}
+ /* __________________________________________section 1 */
+
+main section:nth-of-type(1) div:nth-of-type(1)>p{
+    color: #ebccc2;
+    font-size: 2.5em;
+    padding-left: 25%;
+    padding-top: 10%; 
+    /* background-color: red;  */
+} 
+main section img{
+    margin-left: 4%;
+    margin-top: 6%;
+    width: 90%;
+} 
+/* _______________________________________________section 2 */
+
+main section:nth-of-type(2) {
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+section:nth-of-type(2) div{
+    margin-top: 15%;
+    width: 40%;
+    margin-left: 5%;
+}
+section:nth-of-type(2) h2{
+    font-size: 3em;
+    color: #ebccc2;
+}
+section:nth-of-type(2) p{
+    color: rgb(115, 115, 115);
+    line-height: 1.3em;
+    padding-top: 30px;
+     
+}
+main section:nth-of-type(2) img{
+    width: 30%;
+    margin-left: 15%;
+    padding-top: 5%;
+}

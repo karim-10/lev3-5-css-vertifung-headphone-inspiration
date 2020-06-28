@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #2e2e2e;
+}
+
+body header nav{
+    width: 100%;
+    position: fixed;
+    /* background-color: tomato; */
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header nav>img{
+    padding-left: 30px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li {
+    padding-left: 15px;
+    padding-top: 40px;
+    font-size: 0.9rem;
+}
+header ul li a{
+    text-decoration: none;
+    color: #867772;
+}
+header ul li:nth-of-type(1){
+    margin-right: 50px;
+}
+header ul li:nth-of-type(5){
+    margin-right: 100px;
+    margin-left: 50px;
+}
+header ul li a:hover{
+    color: rgb(234, 204, 194) ;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+ /* ___________________________________________ main  */
+
+main>div{
+    position: fixed;
+    top: 30%;
+}
+main>div>ul{
+    list-style: circle;
+    margin-left: 40px;
+}
+
+main>div>ul>li {
+    height: 80px;
+    padding-left: 16px;
+}
+main>div>ul>li>a{
+    text-decoration: none;
+    color: #867772;
+}
+main>div>ul>li>a:hover{
+    color: #fff;
+}
+
+/* ______________________________________________ section */
+section{
+    height: 100vh;
+}
+
+section img{
+    width: 55%; 
+    height: 100%;
+} 
+section div {
+    
+    
+}
+section div img{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    /* background-color: red; */
+    top: 10%;
+    left: 62%;
+} 
+section div h1{
+    position: absolute;
+    top: 70%;
+    left: 71%;
+    font-size: 2em;
+    color: rgb(234, 204, 194) ;
+    
+}
+section div p{
+    position: absolute;
+    top: 76%;
+    left: 73%;
+    color: rgb(115, 115, 115);
+    line-height: 1.5em;
+} 
+section div h2{
+    position: absolute;
+    top: 83%;
+    left: 75%;
+    color: rgb(115, 115, 115);
+}
+main section div a{
+    position: absolute;
+    left: 74%;
+    top: 88%;
+    width: 60px;   
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(234, 204, 194) ;
+    text-decoration: none;
+    color: rgb(115, 115, 115);
+    border-radius: 2px;
+    padding: 10px;
+}
